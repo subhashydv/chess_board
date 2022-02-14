@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.board {
+    width: _WIDTH_px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid _COLOR2_;
+    
+}
+.block {
+    width: _SQR_SIZE_px;
+    height: _SQR_SIZE_px;
+}
+
+._COLOR1_ {
+    background-color: _COLOR1_;
+}
+
+._COLOR2_ {
+    background-color: _COLOR2_;
+}
